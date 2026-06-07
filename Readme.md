@@ -42,3 +42,7 @@ pytest.ini
 pip install -r requirements.txt
 
 pytest -v
+
+# Author
+
+Lumanti Kauri
