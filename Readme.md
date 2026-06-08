@@ -2,14 +2,15 @@
 
 ## Project Description
 
-This project is a Selenium automation framework built using Python and Pytest. It automates login functionality testing for a sample web application using the Page Object Model (POM) design pattern.
+This project is a Selenium automation testing project using Python and Pytest. It automates login functionality testing for a sample web application.
 
 ## Tools & Technologies
 
 - Python
-- Selenium
+- Selenium WebDriver
 - Pytest
-- Page Object Model (POM)
+- Git
+- GitHub
 - GitHub Actions (CI/CD)
 
 ## Website Tested
@@ -37,11 +38,17 @@ conftest.py
 requirements.txt
 pytest.ini
 
-## Run Tests
+## Install dependencies:
 
 pip install -r requirements.txt
 
+## Run tests:
+
 pytest -v
+
+## CI/CD
+
+This project uses GitHub Actions to automatically run tests when changes are pushed to the repository.
 
 # Author
 
